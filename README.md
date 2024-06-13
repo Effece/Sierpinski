@@ -14,3 +14,6 @@ The output is a dictionary where each key is an object and each value is a list 
 ## Encoding on the graph
 An object of the graph is a set of n letters, n being the number of disks. By ranking the disks by weight, **the #k letter corresponds to the column where the #k disk is**. A branch represents one (legal) move.
 *The fastest solve is the shortest path from 'AA..A' to '&&..&' where '&' is the last column.*
+
+## Geometry
+The classic graph, generated on 3 disks and 3 columns, is a triangle, named 'Sierpinski's Triangle'. However, if you extend to four columns, it becomes a square, and so on.
