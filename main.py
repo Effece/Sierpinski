@@ -1,5 +1,7 @@
 texte = lambda * N : str().join([chr(i + 65) for i in N]) # génère une chaîne de caractères correspondant au numéro de la colonne
 
+"""------------------------------------------------------------------------------------------------------------------------------------------------------------------------"""
+
 def sommet(num: int, colonnes: int, * N: list[int]) -> list[int]:
     """
     Trouve tous les voisins d'un sommet.
@@ -50,6 +52,8 @@ def recur(grapheT: dict, presetT: list[int], ind: int, colonnes: int = 3) -> dic
         graphe = recur(graphe, preset, ind + 1, colonnes)
 
     return graphe
+
+"""------------------------------------------------------------------------------------------------------------------------------------------------------------------------"""
 
 print(generer())
 print(generer(4))
