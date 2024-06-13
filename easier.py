@@ -1,5 +1,7 @@
 texte = lambda * N : str().join([chr(i + 65) for i in N]) # génère une chaîne de caractères correspondant au numéro de la colonne
 
+"""------------------------------------------------------------------------------------------------------------------------------------------------------------------------"""
+
 def generate() -> dict[str: list[str]]:
 
     graphe = {}   # graphe
